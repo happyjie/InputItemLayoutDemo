@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputItemLayout">
+        <attr name="keytext" format="string" />
+        <attr name="texthint" format="string" />
+        <attr name="keytextcolor" format="color"/>
+        <attr name="contenttextcolor" format="color"/>
+        <attr name="keytextwidth" format="dimension"/>
+        <attr name="contenttextgravity"><!--内容文本gravity-->
+            <flag name="left" value="0" />
+            <flag name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
